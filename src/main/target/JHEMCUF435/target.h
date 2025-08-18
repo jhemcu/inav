@@ -35,8 +35,8 @@
 #define USE_SPI_DEVICE_1
 
 #define SPI1_SCK_PIN            PA5
-#define SPI1_MISO_PIN           PA6
-#define SPI1_MOSI_PIN           PA7
+#define SPI1_MISO_PIN           PA7
+#define SPI1_MOSI_PIN           PA6
 #define SPI1_NSS_PIN            PA4
 
 // MPU6500
@@ -85,8 +85,8 @@
 // *************** OSD *****************************
 #define USE_SPI_DEVICE_2 
 #define SPI2_SCK_PIN            PB13
-#define SPI2_MISO_PIN           PB14
-#define SPI2_MOSI_PIN           PB15
+#define SPI2_MISO_PIN           PB15
+#define SPI2_MOSI_PIN           PB14
 #define SPI2_NSS_PIN            PB12
 
 #define USE_MAX7456
@@ -97,8 +97,8 @@
 // *************** BLACKBOX **************************
 #define USE_SPI_DEVICE_3
 #define SPI3_SCK_PIN            PB3
-#define SPI3_MISO_PIN           PB4
-#define SPI3_MOSI_PIN           PB5
+#define SPI3_MISO_PIN           PB5
+#define SPI3_MOSI_PIN           PB4
 
 #define M25P16_CS_PIN           PA15
 #define M25P16_SPI_BUS          BUS_SPI3
